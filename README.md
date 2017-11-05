@@ -88,3 +88,17 @@ DevStack can be extensively configured via the configuration file
 this file if you want anything other than the most basic setup.  Start
 by reading the [configuration guide](doc/source/configuration.rst) for
 details of the configuration file and the many available options.
+
+# My Repository
+After install Linux, We should install git bridge-utils using apt-get.
+
+```
+sudo apt-get update
+sudo apt-get install -y git bridge-utils
+sudo adduser stack # password:stack
+sudo visudo -f /etc/sudoers.d/stack # -> write "stack ALL=(ALL) NOPASSWD: ALL" -> Control + x -> y -> Enter
+su - stack
+git clone "this repo"
+cd devstack
+./stack.sh
+```

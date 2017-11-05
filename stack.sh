@@ -33,6 +33,7 @@ unset LANG
 unset LANGUAGE
 LC_ALL=C
 export LC_ALL
+# FORCE=yes
 
 # Make sure umask is sane
 umask 022
