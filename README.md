@@ -90,6 +90,9 @@ by reading the [configuration guide](doc/source/configuration.rst) for
 details of the configuration file and the many available options.
 
 # My Repository
+- Using OS : [Ubuntu Server 16.04.3 LTS 64bit](https://www.ubuntu.com/download/server)
+- Missed OS : Ubuntu Server 12.04
+
 After install Linux, We should install git bridge-utils using apt-get.
 
 ```
@@ -102,3 +105,8 @@ git clone "this repo"
 cd devstack
 ./stack.sh
 ```
+
+- [Reference1](https://www.adoc.co.jp/blog/e000302.html)
+- [Reference2](https://qiita.com/teratsyk/items/dcbeb8fa634c63f17ae5#_reference-3abcc60f53cefc956c8c)
+- [Reference3](https://qiita.com/28tomono/items/5c6ca6e3d4d68a2a8fb2)
+- [Reference4](https://docs.openstack.org/devstack/latest/)
